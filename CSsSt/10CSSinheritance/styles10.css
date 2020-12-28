@@ -1,0 +1,49 @@
+
+* {
+    font-family: arial;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+}
+
+#container{
+    color: red;
+}
+
+p{
+    text-align: center;
+    font-size: 50px;
+    color: green;
+}
+
+/*INHERIT*/
+/*Sets value to inherit from container */
+
+.inherit{
+    color: inherit;
+}
+
+/*INITIAL*/
+/*Sets the value back to default browser style*/
+
+.initial{
+    color: initial;
+}
+
+/*UNSET*/
+/*If the element is naturally inherited acts like inherit,otherwise acts like initial*/
+
+.unset{
+    color:unset;
+}
+
+/*REVERT*/
+
+/*user has defined style , revert back to otherwise use default browser styles*/
+.revert{
+    color: revert;
+}
+

@@ -1,0 +1,23 @@
+*{
+    font-family:lato;
+    margin-bottom: 10px;
+}
+
+img{
+    width:200px;
+    display: block; 
+    margin: 10px auto;
+}
+
+#sea{
+    background-color: orange;
+}
+
+#sun{
+    background-color: aqua;
+}
+
+h2{
+    padding-left: 30px;
+    margin-bottom: 50px;
+}

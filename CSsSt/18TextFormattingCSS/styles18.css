@@ -1,0 +1,49 @@
+*{
+    font-family: arial;
+    font-weight: bold;
+}
+
+.title{
+    text-align: center;
+}
+
+#sentence{
+    /*TEXT ALIGN*/
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+
+    /*TEXT DECORATION*/
+    text-decoration: underline solid limegreen;
+    text-decoration-color: blue;
+    text-decoration-line:overline;
+    text-decoration-style: dashed;
+
+    /*TEXT INDENT*/
+    text-indent: 20px;
+
+    /*TEXT TRANSFORM*/
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase;
+
+}
+
+#paragraph{
+    /*TEXT OVERFLOW*/
+    overflow: hidden;
+    white-space: nowrap;
+    border: 2px solid limegreen;
+    background-color: lightgray;
+    text-overflow: ellipsis;
+}
+
+h1{
+    /*TEXT SHADOW*/
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 3px 3px 0px grey;
+    word-spacing: 25px;
+    letter-spacing: 15px;
+}

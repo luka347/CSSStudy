@@ -1,0 +1,32 @@
+*{
+    font-family: arial;
+    font-weight: bold;
+    
+}
+.title{
+    text-align: center;
+    text-decoration: underline;
+}
+div{
+    height: 10px;
+}
+
+#absolute  {
+    width: 50px;
+    background-color: rebeccapurple;
+}
+
+#relative{
+    width: 50%;
+    background-color: limegreen;
+}
+
+#outerDiv{
+    width: 200px;
+    border: 2px solid red;
+    padding: 3px;
+}
+
+p{
+    font-size: 5vw;
+}
