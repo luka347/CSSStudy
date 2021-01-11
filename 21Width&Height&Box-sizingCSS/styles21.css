@@ -1,0 +1,30 @@
+*{
+    font-family: arial;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.title{
+    text-align: center;
+}
+
+#red{
+    width:200px;
+    height: 200px;
+    background-color: red;
+    margin: 5px;
+    border: 10px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+#blue{
+    width:200px;
+    height: 200px;
+    background-color: blue;
+    margin: 5px;
+    border: 10px solid black;
+    padding: 20px;
+}
+

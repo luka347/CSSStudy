@@ -1,0 +1,57 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    text-align: center;
+}
+
+
+.frame{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px lightgray;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.frame:hover{
+    box-shadow: 8px 8px 10px lightgray;
+    cursor: pointer;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+
+#colorName{
+   background-color: crimson;
+}
+
+#hex{
+    background-color: #000000;
+}
+
+#rgb{
+
+    background-color: rgb(231, 97, 198);
+
+}
+
+#rgba{
+    background-color: rgba(44, 99, 48, 0.5);
+}
+
+#hsl{
+    background-color: hsl(23,40%,80%);
+}
+
+#hsla{
+    background-color: hsla(57, 84%, 49%, 0.8);
+}

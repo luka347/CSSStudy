@@ -1,0 +1,36 @@
+*{
+    font-family: arial;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+}
+
+#backgroundDiv{
+    width: 500px;
+    height: 600px;
+    border: 10px dotted yellow;
+    margin: 50px auto;
+    /*background-color: green;
+    background-image: url(images/shinta-kikuchi-g8GV9CXjcNI-unsplash.jpg) ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center ;*/
+    /*background-clip: padding-box;*/
+
+    /*background-image 
+      background-position / background-size 
+      background-repeat 
+      background-attachment 
+      background-origin
+      background-clip 
+      background-color*/
+      background: url(images/shinta-kikuchi-g8GV9CXjcNI-unsplash.jpg ) center/cover no-repeat green;
+    
+    
+}
+

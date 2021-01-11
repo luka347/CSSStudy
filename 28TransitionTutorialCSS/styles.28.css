@@ -1,0 +1,31 @@
+*{
+    font-family: arial;
+    font-weight: bold;
+}
+
+.title{
+    text-align: center;
+}
+
+div{
+    width: 100px;
+    height:100px;
+    margin: 250px auto;
+    background-color: red;
+    /* transition-property: all;
+    transition-delay: 1s;
+    transition-duration:.5s ;
+    transition-timing-function:ease-out ; */
+
+    transition: all .5s linear;
+
+}
+
+div:hover{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: limegreen;
+    transform: rotate(250deg);
+    
+}

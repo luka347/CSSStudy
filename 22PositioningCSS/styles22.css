@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 0;
+}
+
+.title{
+    text-align: center;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid lightgray;
+
+}
+
+#static{
+    background-color: red;
+    position: static;
+    
+}
+
+#relative{
+    background-color: blue;
+    position: relative;
+    left: 200px;
+}
+
+
+
+#absolute{
+    background-color: yellow;
+    position: absolute;
+    top: 200px;;
+    left: 200px;
+}
+
+#fixed{
+    background-color: green;
+    position: fixed;
+    top: 200px;
+    left: 500px;
+    z-index: 1;
+}
+
+#sticky{
+background: purple;
+position: sticky;
+z-index: 2;
+top: 20px;
+}
